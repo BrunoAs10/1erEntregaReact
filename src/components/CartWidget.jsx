@@ -2,9 +2,10 @@ import React from 'react'
 
 export const CartWidget = () =>{
   return (
-    <div>
-    <i className='bi bi-cart'></i>
-    </div>
+    <>
+    <ion-icon name="cart-outline"></ion-icon>
+
+    </>
   )
 }
 
